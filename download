@@ -1,0 +1,24 @@
+# --- LoftIQ: never upload real bird data ---
+LoftIQ_PRIVATE_ring_alias_map_DO_NOT_UPLOAD.csv
+*_PRIVATE_*.csv
+
+# Generated outputs (regenerate locally, don't version them)
+outputs/
+*.csv
+!LoftIQ.csv          # the GitHub-safe aliased CSV is fine to track if you want it in-repo
+                      # remove the line above if you'd rather keep even that out of git
+
+# Notebook checkpoints / caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local env / secrets
+.env
+*.key
+credentials.json
+token.json
+
+# OS junk
+.DS_Store
+Thumbs.db
