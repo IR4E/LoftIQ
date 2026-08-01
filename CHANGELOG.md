@@ -1,6 +1,5 @@
 # Changelog
 
-## [Unreleased]
 
 ### Added
 - Advanced feature engineering: wind × distance interaction, form momentum
